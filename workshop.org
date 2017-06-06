@@ -3,18 +3,26 @@
 #+Date: 08 juni 2017
 
 
-#+REVEAL_THEME: beige
+#+REVEAL_THEME: white
 
 #+REVEAL_TITLE_SLIDE_TEMPLATE: <h1>%t</h1><h3>%a</d><h5>%d</h5>
 
 #+ATTR_HTML: :height 20%, :width 30%
 [[./images/logo.svg]]
 
+
 #+options: reveal_slide_number:nil reveal_progress:t reveal_control:t
 #+options: toc:nil num:nil
 
-* Hvorfor
 
+* Hvorfor
+:PROPERTIES:
+:reveal_background: #6baed6
+:END:
+
+#+ATTR_REVEAL: :frag roll-in
+- Test 1
+- Test 2
 * Formål for nasjonale kvalitetsregistre
 * Formål for workshop
 * Analyseaktivitet og etablering av resultattjenester
