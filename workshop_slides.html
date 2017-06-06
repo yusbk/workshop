@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Workshop</title>
+<meta name="author" content="(Analyser og resultatutvikling for registerdata)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./css/reveal.css"/>
+<link rel="stylesheet" href="./css/theme/beige.css" id="theme"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Workshop</h1><h3>Analyser og resultatutvikling for registerdata</d><h5>08 juni 2017</h5>
+</section>
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./images/logo.svg" height="20%," width="30%">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<section>
+<section id="slide-org5b58f6a">
+<h2 id="org5b58f6a">Hvorfor</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-org8377aef">
+<h2 id="org8377aef">Formål for nasjonale kvalitetsregistre</h2>
+</section>
+</section>
+<section>
+<section id="slide-org8647f9a">
+<h2 id="org8647f9a">Formål for workshop</h2>
+</section>
+</section>
+<section>
+<section id="slide-orge31d4b3">
+<h2 id="orge31d4b3">Analyseaktivitet og etablering av resultattjenester</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="./lib/js/head.min.js"></script>
+<script src="./js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: false,
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
