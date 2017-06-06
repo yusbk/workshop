@@ -3,9 +3,10 @@
 #+Date: 08 juni 2017
 
 
-#+REVEAL_THEME: white
+#+REVEAL_THEME: beige
 
 #+REVEAL_TITLE_SLIDE_TEMPLATE: <h1>%t</h1><h3>%a</d><h5>%d</h5>
+#+REVEAL_TITLE_SLIDE_BACKGROUND: #6baed6
 
 #+ATTR_HTML: :height 20%, :width 30%
 [[./images/logo.svg]]
@@ -15,14 +16,20 @@
 #+options: toc:nil num:nil
 
 
-* Hvorfor
-:PROPERTIES:
-:reveal_background: #6baed6
-:END:
-
-#+ATTR_REVEAL: :frag roll-in
-- Test 1
-- Test 2
 * Formål for nasjonale kvalitetsregistre
+Kvalitetsforbedringsarbeid:
+- Diagnostic
+- Behandling
+
+#+ATTR_REVEAL: :frag (roll-in)
+*Kvalitetsindikatorer*
+
+* Hvorfor
+#+ATTR_REVEAL: :frag (roll-in)
+- Bistand til analyse av registerdata
+- Etablering av resultattjenester
+
 * Formål for workshop
+Gir et bedre gunnlag og forståelse i bruk av registerdata og videreformidler
+resultater for aktiv benyttelse i kvalitetsforbedringsarbeid
 * Analyseaktivitet og etablering av resultattjenester
