@@ -13,7 +13,6 @@
 #+ATTR_HTML: :height 20%, :width 30%
 [[./images/logo.svg]]
 
-
 #+options: reveal_slide_number:nil reveal_progress:t reveal_control:t
 #+options: toc:nil num:nil
 
