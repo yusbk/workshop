@@ -22,8 +22,8 @@
 Kvalitetsforbedringsarbeid:
 - Diagnostic
 - Behandling
-#+html:<b>
-#+ATTR_REVEAL: :frag (roll-in)
+
+#+ATTR_REVEAL: :frag (grow)
 *Kvalitetsindikatorer*
 
 * Hvorfor
@@ -34,6 +34,9 @@ Kvalitetsforbedringsarbeid:
 * Formål for workshop
 Gir et bedre gunnlag og forståelse i bruk av registerdata og videreformidler
 resultater for en effektiv og aktiv bruk i kvalitetsforbedringsarbeid
+#+ATTR_REVEAL: :frag appear
+- Høy datakvalitet
+- Økt dekningsgrad
 ** Analyseaktivitet og etablering av resultattjenester
 - Indikatorer
 - Datastruktur
