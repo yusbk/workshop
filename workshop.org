@@ -5,7 +5,7 @@
 
 #+REVEAL_THEME: beige
 #+REVEAL_HLEVEL: 2
-#+REVEAL_TRANS: cube
+#+REVEAL_TRANS: default
 
 #+REVEAL_TITLE_SLIDE_TEMPLATE: <h1>%t</h1><h3>%a</d><h5>%d</h5>
 #+REVEAL_TITLE_SLIDE_BACKGROUND: #6baed6
@@ -22,7 +22,7 @@
 Kvalitetsforbedringsarbeid:
 - Diagnostic
 - Behandling
-
+#+html:<b>
 #+ATTR_REVEAL: :frag (roll-in)
 *Kvalitetsindikatorer*
 
@@ -43,4 +43,4 @@ resultater for en effektiv og aktiv bruk i kvalitetsforbedringsarbeid
 - Datakvalitet
 - Praktisk øvelse
 #+ATTR_REVEAL: :frag (appear)
-*LUNSJ kl12:15*
+*LUNSJ  kl12:15*
