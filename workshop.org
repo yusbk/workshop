@@ -20,7 +20,7 @@
 
 * Formål for nasjonale kvalitetsregistre
 Kvalitetsforbedringsarbeid:
-- Diagnostic
+- Diagnostikk
 - Behandling
 
 #+REVEAL_HTML: <div style="color:#084594; text-align: center; font-size: 60px;">
